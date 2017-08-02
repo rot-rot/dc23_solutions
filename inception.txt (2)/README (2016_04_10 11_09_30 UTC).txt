@@ -1,0 +1,12 @@
+For reasons that are still not clear, we decided to encrypt this flag using a
+scheme we call "Double Blowfish 32." A 64-bit key is split in to two 32-bit
+keys, and each 64-bit block is encrypted twice -- once with the first 32-bit
+key, and again with the second 32-bit key. The most-significant 8 bits of each
+key are set to zero for export compliance. The total effective key size is 48
+bits.
+
+We use CBC mode because we're not total amateurs, and the IV is the first eight
+bytes in the file.
+
+However, in the last minute rush preparing for DEFCON, we lost the key,
+potentially ruining the whole challenge. Can you help us recover it?
