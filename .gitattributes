@@ -1,0 +1,5 @@
+SW[[:space:]](2016_04_10[[:space:]]11_09_30[[:space:]]UTC).m4a filter=lfs diff=lfs merge=lfs -text
+drm.flag[[:space:]](2016_04_10[[:space:]]11_09_30[[:space:]]UTC).wav filter=lfs diff=lfs merge=lfs -text
+drm.out[[:space:]](2016_04_10[[:space:]]11_09_30[[:space:]]UTC).mpg filter=lfs diff=lfs merge=lfs -text
+flag.drm[[:space:]](2016_04_10[[:space:]]11_09_30[[:space:]]UTC).mpg filter=lfs diff=lfs merge=lfs -text
+*.mpg filter=lfs diff=lfs merge=lfs -text
